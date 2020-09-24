@@ -5,7 +5,7 @@ System.out.println("hello world"  );
 try{
 System.out.println( 1/0 ); 
 }catch (Exception e){
-System.out.println( e ); 
+System.out.println( "Error " + e ); 
 
 }
 
